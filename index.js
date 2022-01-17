@@ -33,23 +33,23 @@ images.forEach((image) => {
 
     if (e.target.id === "deadpool") {
       const objectImages = {
-        image1: "../public/assets/deadpool.png",
-        image2: "../public/assets/deadpool/slider-1.png",
-        image3: "../public/assets/deadpool/slider-2.png",
+        image1: "./assets/deadpool.png",
+        image2: "./assets/deadpool/slider-1.png",
+        image3: "./assets/deadpool/slider-2.png",
       };
       createImg(objectImages, "imagen deadpool");
     } else if (e.target.id === "spiderman") {
       const objectImages = {
-        image1: "../public/assets/spiderman.png",
-        image2: "../public/assets/spiderman/slider-1.png",
-        image3: "../public/assets/spiderman/slider-2.png",
+        image1: "./assets/spiderman.png",
+        image2: "./assets/spiderman/slider-1.png",
+        image3: "./assets/spiderman/slider-2.png",
       };
       createImg(objectImages, "imagen spiderman");
     } else if (e.target.id === "joker") {
       const objectImages = {
-        image1: "../public/assets/joker.png",
-        image2: "../public/assets/joker/slider-1.png",
-        image3: "../public/assets/joker/slider-2.png",
+        image1: "./assets/joker.png",
+        image2: "./assets/joker/slider-1.png",
+        image3: "./assets/joker/slider-2.png",
       };
       createImg(objectImages, "imagen joker");
     }
