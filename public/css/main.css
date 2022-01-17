@@ -206,8 +206,8 @@ body {
   cursor: pointer;
 }
 .modal .modal-content .modal-slider {
-  width: 400px;
-  height: 250px;
+  width: 450px;
+  height: 300px;
   transform-style: preserve-3d;
   margin: 0 auto;
 }
@@ -265,11 +265,17 @@ body {
   cursor: pointer;
   text-align: center;
   transition: 200ms;
+  text-decoration: none;
 }
 .modal .modal-content a:hover {
   background-color: #fdff00;
   color: #242424;
   transition: background 200ms, color 200ms linear;
+}
+
+.image-card {
+  object-fit: cover;
+  width: 90%;
 }
 
 @keyframes navTo {

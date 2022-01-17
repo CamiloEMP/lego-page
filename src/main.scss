@@ -236,8 +236,8 @@ body {
     }
 
     .modal-slider {
-      width: 400px;
-      height: 250px;
+      width: 450px;
+      height: 300px;    
       transform-style: preserve-3d;
       margin: 0 auto;
       input {
@@ -301,6 +301,7 @@ body {
       cursor: pointer;
       text-align: center;
       transition: 200ms;
+      text-decoration: none;
       &:hover {
         background-color: $color-secundary;
         color: $color-primary;
@@ -310,7 +311,10 @@ body {
   }
 }
 
-
+.image-card {
+  object-fit: cover;
+  width: 90%;
+}
 
 @keyframes navTo {
   0% {
